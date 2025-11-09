@@ -1,0 +1,10 @@
+
+Compile with correct folder structure:
+javac -d . -cp ".;C:\Users\MUKTA\Downloads\mysql-connector-j-9.5.0.jar" assigment5\JDBC\CreateStudentsTable.java
+
+Explanation:
+-d . → creates proper package folders (assigment5\JDBC\CreateStudentsTable.class)
+-cp → includes your MySQL connector JAR
+
+Run the program properly:
+java -cp ".;C:\Users\MUKTA\Downloads\mysql-connector-j-9.5.0.jar" assigment5.JDBC.CreateStudentsTable
